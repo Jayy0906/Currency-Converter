@@ -26,7 +26,7 @@ function populateCurrencyDropdowns(currencies) {
     toCurrency.add(option.cloneNode(true));
   });
   fromCurrency.value = "USD";
-  toCurrency.value = "EUR";
+  toCurrency.value = "INR";
 }
 
 async function convertCurrency(event) {
